@@ -14,10 +14,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "15599295") 
-API_HASH = os.environ.get("API_HASH", "4ce42998f7df4a64934294dadca28ae0") 
-SESSION_NAME = os.environ.get("SESSION_NAME", "")
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://its_star_boi:7234049299@cluster0.8twjh9e.mongodb.net/?retryWrites=true&w=majority") 
+API_ID = os.environ.get("API_ID", "26749311") 
+API_HASH = os.environ.get("API_HASH", "9ffb486ec58d31d0c8afc23bf663c5e1") 
+SESSION_NAME = os.environ.get("SESSION_NAME", "BQAxfugieiLS1knfi9RNPfeymrv7J6qIxThvRnOBd43CQ1UezS62ogvco5pA0FAtLUZ_eeHo6-Dy7BjNRW8-Xxqu0ajbYlTpyKFzm2Wl4WZKsjNIblL2qHcq6W5pvaN5NAicfdTcWBbWilgpKE4RWHKZotkb_Z--zDRiRRCJq7tFutW5KC7phl2GL2RIDK5MhXF2RIbkM0ABkhlohRgHTIsvhUn1YpGGrbxIc5Ues51g8uSsx7NWJDwRVJHtpg4zXryGEUSH2vqEqDIuT82PDOUs9FMHaexYBtCeG6EuuqgPicVFPVPhFrLwt6SKriSYpXJePd-fVmwvkHdBvzD0svnvAAAAAVMjuOsA")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://alpha:alpha@cluster0.hgo2iw4.mongodb.net/?retryWrites=true&w=majority") 
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
@@ -61,7 +61,7 @@ IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @Its_star_boi""",
     filters.command("alive", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def start(client, message):
-    await message.reply_text(f"**ᴄᴀɴᴅʏ ǫᴜᴇᴇɴ ɪs ᴀʟɪᴠᴇ**")
+    await message.reply_text(f"**DAAKU ALPHA ALIVE**")
     
     
 @client.on_message(
